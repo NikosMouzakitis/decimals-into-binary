@@ -14,6 +14,12 @@ int main(void)
 
         if(i == 0)
                 printf("0");
+        else if  ( i < 0 )
+        {
+                printf("Number is not possitive.\n");
+                exit(1);
+
+        }
         else if (i >255)
         {
                 printf("Too large.enter possitive between 0-255");
